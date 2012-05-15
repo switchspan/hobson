@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HobsonService", "HobsonService\HobsonService.csproj", "{1B1E102E-30C1-42A3-B196-9D9DE867176D}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HobsonSetup", "HobsonSetup\HobsonSetup.vdproj", "{C4C999F2-3C36-4D26-BECE-A00940B18A1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,8 @@ Global
 		{1B1E102E-30C1-42A3-B196-9D9DE867176D}.Debug|x86.Build.0 = Debug|x86
 		{1B1E102E-30C1-42A3-B196-9D9DE867176D}.Release|x86.ActiveCfg = Release|x86
 		{1B1E102E-30C1-42A3-B196-9D9DE867176D}.Release|x86.Build.0 = Release|x86
+		{C4C999F2-3C36-4D26-BECE-A00940B18A1D}.Debug|x86.ActiveCfg = Debug
+		{C4C999F2-3C36-4D26-BECE-A00940B18A1D}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
