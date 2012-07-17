@@ -1,4 +1,4 @@
-﻿namespace HobsonService
+﻿namespace Hobson
 {
     partial class HobsonService
     {

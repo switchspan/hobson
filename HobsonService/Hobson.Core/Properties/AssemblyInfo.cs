@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Hobson")]
-[assembly: AssemblyDescription("Hobson File Butler")]
+[assembly: AssemblyTitle("Hobson.Core")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Switchspan")]
-[assembly: AssemblyProduct("Hobson")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Hobson.Core")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f891d27d-0bda-4e06-afc9-4c33df7d0066")]
+[assembly: Guid("06178cde-17ff-46b5-8fea-6d3f7538dbc6")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -34,10 +34,3 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-
-// Configure log4net using the .config file
-[assembly: log4net.Config.XmlConfigurator(Watch = true)]
-// This will cause log4net to look for a configuration file
-// called TestApp.exe.config in the application base
-// directory (i.e. the directory containing TestApp.exe)
-// The config file will be watched for changes.
